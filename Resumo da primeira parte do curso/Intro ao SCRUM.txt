@@ -1,0 +1,78 @@
+Introdução ao SCRUM
+
+Processo de Desenvolvimento:
+Concepção
+Analise & Desigh
+Desenvolvimento
+Testes
+Implantação
+
+-----------------------------------------------------
+
+Quando um software é criado, apenas 20% são usados
+
+gestão de projetos tradicional e ágil
+
+tradicional (waterfall) é obrigatoriamente por etapas
+
+ágil é iterativa, escopo é definido ao longo do projeto
+cliente pode ver o projeto funcionando já no inicio do projeto
+
+SCRUM: Um dos frameworks de gerenciamento de projetos ágeis;
+Pilares: transparencia > adaptação > inspeção
+
+tempo de desenvolvimento: 2 a 4 semanas
+reduz incertezas
+Daily Meeting
+Piorização do Backlog
+Clientes envolvidos durante o ciclo
+Melhoria contínua
+Equipe se organiza independentemente
+
+SCRUM não reconhece títulos para os integrantes do Time de Desenvolvimento que não seja o Desenvolvedor, independentemente do trabalho que está sendo realizado pela pessoa e não há exceções para esta regra.
+
+MVP
+Minimo produto viável
+Ifood Nubank
+
+Time Box
+Tempo máximo para fazer uma cerimônia ou Sprint
+
+Cerimônias do SCRUM:
+- SPRINT
+Planejamento - Planning Poker
+Reuniões diárias - o que fez? o que vai fazer? o que foi feito? (standup meeting)
+revisao a sprint - time DEV apresenta para o PO o trabalho feito
+retrospectiva da sprint - Reunião da equipe para Lições Aprendidas (Transparencia)
+
+Conceitos e tarefas
+Estória vs Tarefas
+
+Epico é o objetio macro a ser atingido, onde o mesmo deve ser quebrado em pedaços menores (conjunto de estórias)
+
+EPICO
+ESTORIA
+TAREFAS
+
+Principal habilidade do PO é o relacionamento
+(autoexplicativo)
+
+daily satnd-up meeting
+- o que fiz ontem?
+- o que vou fazer hoje?
+- possuo alguma dúvida/impedimento no desenvolvimento do problema?
+
+Refinamento vem após a Planning, no final da Sprint anterior.
+O principal objetivo da Review é verificar se a demanda agrega valor ao negócio. (time DEV apresenta)
+
+3.0
+Maturidade do Time
+1. Transparencia
+2. Inspeção
+3. Adaptação
+
+(Comprometimento, coragem > abertura, foco > respeito)
+
+
+
+

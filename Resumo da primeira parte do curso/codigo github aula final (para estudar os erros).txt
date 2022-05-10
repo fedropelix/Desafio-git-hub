@@ -1,0 +1,240 @@
+Codigo github aula final
+
+
+Fedro@DESKTOP-QREE5A5 MINGW64 ~
+$ cd /c/workspace/livro-receitas
+
+Fedro@DESKTOP-QREE5A5 MINGW64 /c/workspace/livro-receitas (master)
+$ ls
+README.md  clear  receitas/
+
+Fedro@DESKTOP-QREE5A5 MINGW64 /c/workspace/livro-receitas (master)
+$ git remote add origin https://github.com/fedropelix/meu-livro-de-rec
+error: remote origin already exists.
+
+Fedro@DESKTOP-QREE5A5 MINGW64 /c/workspace/livro-receitas (master)
+$ git remote -v
+origin  https://github.com/fedropelix/livro-receitas.git (fetch)
+origin  https://github.com/fedropelix/livro-receitas.git (push)
+
+Fedro@DESKTOP-QREE5A5 MINGW64 /c/workspace/livro-receitas (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        clear
+
+nothing added to commit but untracked files present (use "git add" to
+
+Fedro@DESKTOP-QREE5A5 MINGW64 /c/workspace/livro-receitas (master)
+$ git push origin master
+Everything up-to-date
+
+Fedro@DESKTOP-QREE5A5 MINGW64 /c/workspace/livro-receitas (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory
+        modified:   README.md
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        clear
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Fedro@DESKTOP-QREE5A5 MINGW64 /c/workspace/livro-receitas (master)
+$ git add *
+warning: LF will be replaced by CRLF in README.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in clear.
+The file will have its original line endings in your working directory
+
+Fedro@DESKTOP-QREE5A5 MINGW64 /c/workspace/livro-receitas (master)
+$
+
+Fedro@DESKTOP-QREE5A5 MINGW64 /c/workspace/livro-receitas (master)
+$ ls
+README.md  clear  receitas/
+g
+Fedro@DESKTOP-QREE5A5 MINGW64 /c/workspace/livro-receitas (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   README.md
+        new file:   clear
+
+
+Fedro@DESKTOP-QREE5A5 MINGW64 /c/workspace/livro-receitas (master)
+$ git commit -m "Adiciona receita pure"
+[master 711e223] Adiciona receita pure
+ 2 files changed, 30 insertions(+)
+ create mode 100644 clear
+
+Fedro@DESKTOP-QREE5A5 MINGW64 /c/workspace/livro-receitas (master)
+$ git push origin master
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 766 bytes | 766.00 KiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/fedropelix/livro-receitas.git
+   47245b4..711e223  master -> master
+
+Fedro@DESKTOP-QREE5A5 MINGW64 /c/workspace/livro-receitas (master)
+$ ls
+README.md  clear  receitas/
+
+Fedro@DESKTOP-QREE5A5 MINGW64 /c/workspace/livro-receitas (master)
+$ git pull origin master
+From https://github.com/fedropelix/livro-receitas
+ * branch            master     -> FETCH_HEAD
+Already up to date.
+
+Fedro@DESKTOP-QREE5A5 MINGW64 /c/workspace/livro-receitas (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Fedro@DESKTOP-QREE5A5 MINGW64 /c/workspace/livro-receitas (master)
+$ git commit -m "adiciona receita farofa"
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Fedro@DESKTOP-QREE5A5 MINGW64 /c/workspace/livro-receitas (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Fedro@DESKTOP-QREE5A5 MINGW64 /c/workspace/livro-receitas (master)
+$ ls
+README.md  clear  receitas/
+
+Fedro@DESKTOP-QREE5A5 MINGW64 /c/workspace/livro-receitas (master)
+$
+
+Fedro@DESKTOP-QREE5A5 MINGW64 /c/workspace/livro-receitas (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Fedro@DESKTOP-QREE5A5 MINGW64 /c/workspace/livro-receitas (master)
+$ git add *
+warning: LF will be replaced by CRLF in README.md.
+The file will have its original line endings in your working directory
+
+Fedro@DESKTOP-QREE5A5 MINGW64 /c/workspace/livro-receitas (master)
+$ ls
+README.md  clear  receitas/
+git
+Fedro@DESKTOP-QREE5A5 MINGW64 /c/workspace/livro-receitas (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   README.md
+
+
+Fedro@DESKTOP-QREE5A5 MINGW64 /c/workspace/livro-receitas (master)
+$ git commit -m "Adiciona receita farofa"
+[master ae5f59a] Adiciona receita farofa
+ 1 file changed, 2 insertions(+)
+
+Fedro@DESKTOP-QREE5A5 MINGW64 /c/workspace/livro-receitas (master)
+$
+
+Fedro@DESKTOP-QREE5A5 MINGW64 /c/workspace/livro-receitas (master)
+$ git push origin master
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 347 bytes | 347.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/fedropelix/livro-receitas.git
+   711e223..ae5f59a  master -> master
+
+Fedro@DESKTOP-QREE5A5 MINGW64 /c/workspace/livro-receitas (master)
+$ ls
+README.md  clear  receitas/
+
+Fedro@DESKTOP-QREE5A5 MINGW64 /c/workspace/livro-receitas (master)
+$ cd ..
+
+Fedro@DESKTOP-QREE5A5 MINGW64 /c/workspace
+$ ls
+livro-receitas/
+
+Fedro@DESKTOP-QREE5A5 MINGW64 /c/workspace
+$ git clone https://github.com/python/cpython.git
+Cloning into 'cpython'...
+remote: Enumerating objects: 891090, done.
+remote: Counting objects: 100% (244/244), done.
+remote: Compressing objects: 100% (145/145), done.
+remote: Total 891090 (delta 134), reused 177 (delta 99), pack-reused 890846
+Receiving objects: 100% (891090/891090), 461.85 MiB | 8.99 MiB/s, done.
+Resolving deltas: 100% (706515/706515), done.
+Updating files: 100% (4805/4805), done.
+
+Fedro@DESKTOP-QREE5A5 MINGW64 /c/workspace
+$
+
+Fedro@DESKTOP-QREE5A5 MINGW64 /c/workspace
+$ ls
+cpython/  livro-receitas/
+
+Fedro@DESKTOP-QREE5A5 MINGW64 /c/workspace
+$ cd cpython/
+
+Fedro@DESKTOP-QREE5A5 MINGW64 /c/workspace/cpython (main)
+$ ls
+Doc/      Mac/             PC/        README.rst     configure*
+Grammar/  Makefile.pre.in  PCbuild/   Tools/         configure.ac
+Include/  Misc/            Parser/    aclocal.m4     install-sh*
+LICENSE   Modules/         Programs/  config.guess*  pyconfig.h.in
+Lib/      Objects/         Python/    config.sub*    setup.py
+
+Fedro@DESKTOP-QREE5A5 MINGW64 /c/workspace/cpython (main)
+$ ls -a
+./                 Grammar/         PC/            config.sub*
+../                Include/         PCbuild/       configure*
+.azure-pipelines/  LICENSE          Parser/        configure.ac
+.editorconfig      Lib/             Programs/      install-sh*
+.git/              Mac/             Python/        pyconfig.h.in
+.gitattributes     Makefile.pre.in  README.rst     setup.py
+.github/           Misc/            Tools/
+.gitignore         Modules/         aclocal.m4
+Doc/               Objects/         config.guess*
+
+Fedro@DESKTOP-QREE5A5 MINGW64 /c/workspace/cpython (main)
+$ git remote -v
+origin  https://github.com/python/cpython.git (fetch)
+origin  https://github.com/python/cpython.git (push)
+
+Fedro@DESKTOP-QREE5A5 MINGW64 /c/workspace/cpython (main)
+$

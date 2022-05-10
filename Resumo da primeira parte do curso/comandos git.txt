@@ -1,0 +1,51 @@
+- Objetos fundamentais (Blobs)
+pega uma string para ser encriptada no sha1
+
+echo 'conteudo' | git hash-object --stdin
+echo -e 'blob 9\0conteudo' | openssl sha1
+
+Blo
+\0
+Ola Mundo
+
+entendo o sha o git armazena dados nos objetos
+ou seja
+quando um objeto é alterado no git, ele gera outra chave criptografada
+
+
+Tree
+\0
+blob sa4d8s texto.txt (desktop)
+
+blob não guarda o nome do arquivo a Tree guarda.
+
+Commit
+junta todos os arquivos tanto tree quando blob etc
+
+Chave SSH
+forma de estabelecer uma conexão segura com 2 maquinas atraves de chaves
+chave publica e privada
+é possivel enviar codigos sem precisar de senha porque já está vinculado
+ssh-keygen -t ed25519 -c fedropelix@gmail.com
+
+staged
+
+Servidor: remoto
+Ambiente de desenvolvimento: local
+working directory > staging area > local repository
+
+working directory + staging area
+git add = arquivo transita aqui
+
+staging area + local repository
+Commit = move os arquivos de staging e cria uma foto do arquivo naquele momento
+como arquivo não modificado (unmodified)
+
+o repositório local é composto por COMMITS
+se não estiver, não consigo colocar em um repositorio remoto
+
+GIT STATUS é importante!
+
+working directory       staging area         local repository
+                       >git add             >git commit -m
+o commit feito dentro da plataforma sao linkados no github
